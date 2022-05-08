@@ -14,4 +14,6 @@ dotnet ef database update
 # ANGULAR
 
  npm install -g @angular/cli@12
+ 
+ Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 
