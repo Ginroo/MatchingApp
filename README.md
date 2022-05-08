@@ -1,6 +1,6 @@
 # MatchingApp
 
-After Cloning Run this command in PS
+After Cloning Run this command in PS/Terminal
 
 # .NET
 
@@ -25,3 +25,5 @@ npm install font-awesome
 link: https://drive.google.com/file/d/1cb2iswpMsyu-mQvTWR7o4hrm7hG0DVbV/view?usp=sharing
 
 -download zip file and install certificate in generateTrustedSSL folder
+
+-create a folder in client folder and copy and paste there the server.crt and server.key file
