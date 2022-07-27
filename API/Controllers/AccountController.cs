@@ -47,7 +47,6 @@ namespace API.Controllers
                 Token = _tokenService.CreateToken(user)
             };
         }
-
         private async Task<bool> UserExists(string userName)
         {
             return await _context.AppUsers.AnyAsync(x => x.UserName == userName.ToLower());
@@ -69,7 +68,7 @@ namespace API.Controllers
                 if (computedHash[i] != user.PasswordHash[i])
                     return Unauthorized("Invalid Password");
             }
-
+            
             return new UserDTO
             {
                 UserName = user.UserName,
